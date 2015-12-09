@@ -1,3 +1,7 @@
+*{
+   outline:1px solid red;
+}
+
 @import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
 
 body { 
@@ -8,9 +12,27 @@ body {
     margin: 0px !important;
     font-size:13px;
 }
+.logout{
+    background-color:violet;
+    float:left;
+    display:inline-block;
+}
+.princesa{
+    width:100px;
+    height:100px;
+}
+.img-responsive{
+    width:100px;
+    height:100px;
+    margin:0 auto;
+}
+ul{
+    padding:0;
+}
 
 ul li {
     list-style: none;
+
 }
 
 a, a:hover, a:focus {
