@@ -26,18 +26,29 @@ body {
     height:100px;
     margin:0 auto;
 }
-ul{
+.lista{
     padding:0;
 }
 
-ul li {
+.lista li {
     list-style: none;
-
+    width:150px;
+}
+.lista a{
+    color:grey;
+}
+span{
+    margin:5px;
 }
 
+.lista a:hover{
+    color:white;
+
+}
 a, a:hover, a:focus {
     text-decoration: none;
     outline: none;
+
 }
 
 ::selection {
