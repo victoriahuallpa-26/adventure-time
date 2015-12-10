@@ -1,6 +1,6 @@
-*{
+/*{
    outline:1px solid red;
-}
+}*/
 
 @import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
 
@@ -18,21 +18,26 @@ body {
     display:inline-block;
 }
 .princesa{
-    width:100px;
-    height:100px;
+    width:60px;
+    height:60px;
 }
 .img-responsive{
-    width:100px;
-    height:100px;
+    width:60px;
+    height:60px;
     margin:0 auto;
 }
 .lista{
-    padding:0;
+  padding-left:30px;  
 }
 
 .lista li {
     list-style: none;
     width:150px;
+    height:40px;
+    padding-top:10px;
+}
+.lista li:hover{
+    background-color:#8904B1;
 }
 .lista a{
     color:grey;
@@ -40,17 +45,42 @@ body {
 span{
     margin:5px;
 }
-
+#negro{
+ color:white;
+ text-align:center;
+ margin-top:10px;
+}
 .lista a:hover{
     color:white;
-
+    
 }
 a, a:hover, a:focus {
     text-decoration: none;
     outline: none;
 
 }
-
+.caja-blanca{
+    width:100px;
+    height:90px;
+    
+    margin:0 auto;
+    margin-top:30px;
+    overflow:hidden;
+    transition: all 1s;
+    box-shadow: 0 2px 0 #cccccc;
+}
+.caja-blanca:hover{
+    background-color:white;
+        height:120px;
+}
+.caja-blanca span{
+    margin-left:35px;
+    font-size:30px;
+}
+.caja-blanca p{
+    text-align:center;
+    margin-top:20px;
+}
 ::selection {
     background: #9c4c9d;
     color: #fff;
@@ -1150,4 +1180,8 @@ label {
 #topbar{
     background:#424a5d;
     height:50px;
+}
+#topbar h1{
+    color:white;
+    font-size:16px;
 }
