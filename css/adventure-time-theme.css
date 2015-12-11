@@ -1,6 +1,6 @@
-/*{
+*{
    outline:1px solid red;
-}*/
+}
 
 @import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
 
@@ -37,18 +37,22 @@ body {
     padding-top:10px;
 }
 .lista li:hover{
-    background-color:#8904B1;
+    background-color:#610B5E;
 }
 .lista a{
     color:grey;
 }
 span{
-    margin:5px;
+    margin:6px;
 }
 #negro{
  color:white;
  text-align:center;
  margin-top:10px;
+}
+.rojo{
+    font-size:10px;
+    color:red;
 }
 .lista a:hover{
     color:white;
@@ -59,6 +63,8 @@ a, a:hover, a:focus {
     outline: none;
 
 }
+
+
 .caja-blanca{
     width:100px;
     height:90px;
@@ -71,7 +77,7 @@ a, a:hover, a:focus {
 }
 .caja-blanca:hover{
     background-color:white;
-        height:120px;
+        height:150px;
 }
 .caja-blanca span{
     margin-left:35px;
