@@ -54,16 +54,42 @@ span{
     font-size:10px;
     color:red;
 }
+.morado{
+   background-color:#610B5E;
+   color:white;
+   text-align:center;
+   height:40px;
+   margin-top:10px;
+   padding-top:10px;
+}
+.vineta{
+    width:25px;
+    height:25px;
+    border-radius:25px;
+
+}
+
 .lista a:hover{
     color:white;
     
+}
+.lista-1{
+    list-style:none;
+    padding-left:0;
+  
+}
+.lista-1 li{
+    box-shadow:0 1px 0 #cccccc;
+}
+.fa-circle{
+    color:skyblue;
+    font-size:20px;
 }
 a, a:hover, a:focus {
     text-decoration: none;
     outline: none;
 
 }
-
 
 .caja-blanca{
     width:100px;
@@ -86,6 +112,9 @@ a, a:hover, a:focus {
 .caja-blanca p{
     text-align:center;
     margin-top:20px;
+}
+.cajita-video{
+
 }
 ::selection {
     background: #9c4c9d;
