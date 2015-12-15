@@ -124,28 +124,28 @@ a, a:hover, a:focus {
   background-color:white;
   height:100px;
   box-shadow:0 2px 0 #cccccc;
-  margin-bottom:10px;
+  margin-top:10px;
   padding:10px 0 0 10px;
 }
 .botoms-1{
   background-color:white;
   height:220px;
   box-shadow:0 2px 0 #cccccc;
-  margin-bottom:10px; 
+  margin-top:10px; 
   padding:10px 0 0 10px;
 }
 .botoms-2{
    background-color:white;
   height:150px;
   box-shadow:0 2px 0 #cccccc;
-  margin-bottom:10px; 
+  margin-top:10px; 
   padding:10px 0 0 10px;
 }
 .botoms-3{
   background-color:white;
   height:320px;
   box-shadow:0 2px 0 #cccccc;
-  margin-bottom:10px; 
+  margin-top:10px; 
   padding:10px 0 0 10px;
 
 }
