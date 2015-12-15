@@ -12,11 +12,6 @@ body {
     margin: 0px !important;
     font-size:13px;
 }
-.logout{
-    background-color:violet;
-    float:left;
-    display:inline-block;
-}
 .princesa{
     width:60px;
     height:60px;
@@ -68,7 +63,18 @@ span{
     border-radius:25px;
     margin:5px;
 }
+.imagen{
+    width:100%;
+    height:200px;
+    padding:10px;
+}
 
+a.fa.fa-bars.menu{
+    font-size:30px;
+    color:white;
+    padding:5px;
+    font:arial;
+}
 
 .lista a:hover{
     color:white;
@@ -114,8 +120,10 @@ a, a:hover, a:focus {
     text-align:center;
     margin-top:20px;
 }
-.cajita-video{
-
+.botoms{
+  background-color:white;
+  height:80px;
+  box-shadow:0 2px 0 #cccccc;
 }
 ::selection {
     background: #9c4c9d;
